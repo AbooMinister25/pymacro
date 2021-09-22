@@ -14,3 +14,10 @@ def func_with_macro():
 ```
 
 The DSL inside the comments is turned into valid python code.
+
+## Getting Started
+You can install `pymacro` using the python package manager, `pip`.
+
+```bash
+pip install python-pymacro
+```

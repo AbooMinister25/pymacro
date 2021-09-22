@@ -1,8 +1,13 @@
 [tool.poetry]
-name = "pymacro"
+name = "python-pymacro"
 version = "0.1.0"
-description = ""
+description = "A python library that can be used to have macros inside python functions through decorators."
 authors = ["AbooMinister25 <aboominister@gmail.com>"]
+repository = "https://github.com/AbooMinister25/pymacro"
+readme = "README.md"
+packages = [
+    { include = "pymacro" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"

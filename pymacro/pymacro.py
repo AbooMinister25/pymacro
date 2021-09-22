@@ -147,14 +147,3 @@ def macro(func: typing.Callable):
         exec(source_str)
 
     return wrapper
-
-
-@macro
-def foo():
-    # DEFINE x 10
-    if x == 10:
-        print("X IS 10")
-    else:
-        print("X IS NOT 10")
-
-foo()
